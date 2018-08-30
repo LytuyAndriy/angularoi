@@ -12,7 +12,8 @@ import { HomeComponent } from './home/home.component';
 import { CartComponent } from './cart/cart.component';
 import {FormsModule} from '@angular/forms';
 import{RouterModule} from '@angular/router';
-import { UsersContainerComponent } from './users-container/users-container.component'
+import { UsersContainerComponent } from './users-container/users-container.component';
+import { MycolorDirective } from './mycolor.directive'
 
 const routes=[
   {path:'',component:UsersContainerComponent},
@@ -32,7 +33,8 @@ const routes=[
     ChildComponent,
     HomeComponent,
     CartComponent,
-    UsersContainerComponent
+    UsersContainerComponent,
+    MycolorDirective
   ],
   imports: [
     BrowserModule,
